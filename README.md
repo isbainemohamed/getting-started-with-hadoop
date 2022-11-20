@@ -18,7 +18,7 @@ Download hadoop-3.2.3.tar.gz to your theia environment by running the following 
 ```bash
 curl https://dlcdn.apache.org/hadoop/common/hadoop-3.2.3/hadoop-3.2.3.tar.gz --output hadoop-3.2.3.tar.gz
 ```
-screen1
+![download](https://github.com/isbainemohamed/getting-started-with-hadoop/blob/9c92d432ad7627750c771808fb6ac9cc4dc13a65/screens/screen1.png)
 
 * 2nd step :
 
@@ -28,7 +28,7 @@ Extract the tar file in the currently directory.
 tar -xvf hadoop-3.2.3.tar.gz
 ```
 
-screen2
+![download](https://github.com/isbainemohamed/getting-started-with-hadoop/blob/9c92d432ad7627750c771808fb6ac9cc4dc13a65/screens/screen2.png)
 
 3rd Step: 
 
@@ -38,7 +38,7 @@ Navigate to the hadoop-3.2.3 directory.
 cd hadoop-3.2.3
 ```
 
-screen3
+![download](https://github.com/isbainemohamed/getting-started-with-hadoop/blob/9c92d432ad7627750c771808fb6ac9cc4dc13a65/screens/screen3.png)
 
 4th Step: 
 
@@ -48,7 +48,7 @@ Check the hadoop command to see if it is setup. This will display the usage docu
 bin/hadoop
 ```
 
-screen4
+![download](https://github.com/isbainemohamed/getting-started-with-hadoop/blob/9c92d432ad7627750c771808fb6ac9cc4dc13a65/screens/screen4.png)
 
 5th Step:
 
@@ -59,9 +59,9 @@ curl https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-BD02
 cat data.txt
 ```
 
-screen5
+![download](https://github.com/isbainemohamed/getting-started-with-hadoop/blob/9c92d432ad7627750c771808fb6ac9cc4dc13a65/screens/screen5.png)
 
-screen6
+![download](https://github.com/isbainemohamed/getting-started-with-hadoop/blob/9c92d432ad7627750c771808fb6ac9cc4dc13a65/screens/screen6.png)
 
 6th Step:
 
@@ -71,7 +71,7 @@ Run the Map reduce application for wordcount on data.txt and store the output in
 bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.3.jar wordcount data.txt output
 ```
 
-screen7 
+![download](https://github.com/isbainemohamed/getting-started-with-hadoop/blob/9c92d432ad7627750c771808fb6ac9cc4dc13a65/screens/screen7.png) 
 
 7th Step:
 
@@ -81,7 +81,7 @@ Once the word count runs successfully, we can run the following command to see t
 ls output
 ```
 
-screen8
+![download](https://github.com/isbainemohamed/getting-started-with-hadoop/blob/9c92d432ad7627750c771808fb6ac9cc4dc13a65/screens/screen8.png)
 
 part-r-00000 with _SUCCESS is indicating that the wordcount has been done.
 
@@ -92,8 +92,8 @@ show the output of our wordcount
 cat output/part-r-00000
 ```
 
-screen9
+![download](https://github.com/isbainemohamed/getting-started-with-hadoop/blob/9c92d432ad7627750c771808fb6ac9cc4dc13a65/screens/screen9.png)
 
 ------------------------------------------------
 
-aknowledgement
+![download](https://github.com/isbainemohamed/getting-started-with-hadoop/blob/9c92d432ad7627750c771808fb6ac9cc4dc13a65/screens/aknowledegement.png)
