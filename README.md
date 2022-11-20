@@ -96,4 +96,4 @@ cat output/part-r-00000
 
 ------------------------------------------------
 
-![download](https://github.com/isbainemohamed/getting-started-with-hadoop/blob/9c92d432ad7627750c771808fb6ac9cc4dc13a65/screens/aknowledegement.png)
+![download](https://github.com/isbainemohamed/getting-started-with-hadoop/blob/61c262905ce70c9fde2306dcd3865f3a5d98a413/screens/aknowledgement.png)
