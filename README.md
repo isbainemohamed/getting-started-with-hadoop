@@ -52,10 +52,48 @@ screen4
 
 5th Step:
 
-Download data.txt to your current directory.
+Download data.txt to your current directory and explore the data in our file
 
 ```bash
 curl https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-BD0225EN-SkillsNetwork/labs/data/data.txt --output data.txt
+cat data.txt
 ```
 
 screen5
+
+screen6
+
+6th Step:
+
+Run the Map reduce application for wordcount on data.txt and store the output in /user/root/output
+
+```bash
+bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.3.jar wordcount data.txt output
+```
+
+screen7 
+
+7th Step:
+
+Once the word count runs successfully, we can run the following command to see the output file it has generated.
+
+```bash
+ls output
+```
+
+screen8
+
+part-r-00000 with _SUCCESS is indicating that the wordcount has been done.
+
+
+show the output of our wordcount
+
+```bash
+cat output/part-r-00000
+```
+
+screen9
+
+------------------------------------------------
+
+aknowledgement
